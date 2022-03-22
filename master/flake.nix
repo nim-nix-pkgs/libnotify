@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-libnotify-master.flake = false;
+  inputs.src-libnotify-master.ref   = "refs/heads/master";
   inputs.src-libnotify-master.owner = "FedericoCeratto";
-  inputs.src-libnotify-master.ref   = "master";
   inputs.src-libnotify-master.repo  = "nim-libnotify.git";
   inputs.src-libnotify-master.type  = "github";
   
