@@ -11,7 +11,6 @@
   inputs.src-libnotify-master.ref   = "refs/heads/master";
   inputs.src-libnotify-master.owner = "FedericoCeratto";
   inputs.src-libnotify-master.repo  = "nim-libnotify";
-  inputs.src-libnotify-master.dir   = "";
   inputs.src-libnotify-master.type  = "github";
   
   inputs."gtk2".owner = "nim-nix-pkgs";
